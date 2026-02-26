@@ -37,16 +37,4 @@ docker compose up
 Frontend: `http://localhost:3000`  
 Backend: `http://localhost:8080`
 
-## Демо для защиты (что показать)
-
-- Регистрация/вход: `http://localhost:3000/login`
-- Восстановление пароля (демо): `http://localhost:3000/forgot-password`
-- Роли:
-  - ADMIN эндпоинт: `GET /api/admin/users` (только ADMIN)
-  - Профиль: `GET/PUT /api/users/me` (USER/ADMIN)
-  - CRUD: `GET/POST/PUT/DELETE /api/readings` (USER/ADMIN)
-
-Дефолтный админ:
-- email: `admin@example.com`
-- password: `admin`
 
